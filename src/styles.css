@@ -102,6 +102,10 @@ h2 {
     background: pink;
 }
 
+.puke {
+    transform: translateY(+100px);
+}
+
 footer {
     color: purple;
     background-color: pink;

@@ -10,6 +10,5 @@ for(let i = 0; i < colorButtons.length; i++) {
     //wiring up listening event
     colorButton.addEventListener('click', () => {
         vomitUnicorn(unicorn, colorButton.value);
-        console.log('in event listener');
     });
 }
