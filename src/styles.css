@@ -66,6 +66,10 @@ h2 {
     margin-top: .5%;
     margin-left: 4%;
     transform: translateY(-15px);
+    background-image: radial-gradient(circle, #5c0067 0%, #00d4ff 100%);
+    color: rgb(225, 225, 225);
+    font-weight: bolder;
+    border: solid purple;
 }
 
 .head {
