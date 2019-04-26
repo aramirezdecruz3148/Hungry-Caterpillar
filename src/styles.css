@@ -103,7 +103,8 @@ h2 {
 }
 
 .puke {
-    transform: translateY(+100px);
+    transform: translateY(+93px);
+    translate: 3000ms ease-in-out;
 }
 
 footer {
