@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Indie+Flower');
 
 body {
-    width: 850px;
+    width: 875px;
     height: 250px;
     font-family: 'Indie Flower', cursive;
     background-color: rgb(245, 244, 244);
@@ -103,17 +103,19 @@ h2 {
 .puke {
     animation-name: puke; 
     animation-duration: 1s;
+    margin-top: 15%;
+    /*margin-bottom: -31%;*/
 }
 
 @keyframes puke {
     from {
-        margin-left: -35px;
-        margin-bottom: 10%;
-        margin-right: -12px;
+        margin-left: -50px;
+        margin-bottom: 7%;
     }
   
     to {
-      margin-bottom: 5%;
+      /*margin-bottom: -31%;*/
+      margin-top: 15%;
     }
   }
 
@@ -121,4 +123,13 @@ footer {
     color: purple;
     background-color: pink;
     text-align: center;
+}
+
+.wrapper {
+    display: flex;
+    align-items: center;
+}
+
+#unicorn {
+    margin-bottom: -10%;
 }

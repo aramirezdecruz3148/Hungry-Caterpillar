@@ -3,7 +3,7 @@ function vomitUnicorn(Mockunicorn, colorName) {
     span.classList.add('part');
     span.classList.add(colorName);
     span.classList.add('puke');
-    Mockunicorn.appendChild(span);
+    Mockunicorn.prepend(span);
 }
 
 export default vomitUnicorn;
