@@ -2,7 +2,6 @@ import vomitUnicorn from './vomit-unicorn.js';
 //selecting elements I want to use, (posting the cast list)
 const colorButtons = document.querySelectorAll('.color');
 const unicorn = document.getElementById('unicorn');
-const pukes = document.querySelectorAll('.part');
 const cleanerButton = document.getElementById('puke-cleaner');
 
 //initializing stuff and creating my loop for my buttons
