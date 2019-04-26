@@ -13,6 +13,7 @@ main {
 
 h1 {
     color: purple;
+    text-align: center;
 }
 
 h2 {
@@ -102,7 +103,7 @@ h2 {
 
 .puke {
     animation-name: puke; 
-    animation-duration: 1s;
+    animation-duration: .5s;
     transform: translateY(+63px) translateX(+20px);
 }
 
