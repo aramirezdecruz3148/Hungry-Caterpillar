@@ -86,6 +86,22 @@ h2 {
     background: yellow;
 }
 
+.green {
+    background: green;
+}
+
+.blue {
+    background: blue;
+}
+
+.purple {
+    background: purple;
+}
+
+.pink {
+    background: pink;
+}
+
 footer {
     color: purple;
     background-color: pink;

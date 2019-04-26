@@ -1,8 +1,8 @@
-function vomitUnicorn(mockUnicorn, colorName) {
+function vomitUnicorn(Mockunicorn, colorName) {
     const span = document.createElement('span');
     span.classList.add('part');
     span.classList.add(colorName);
-    mockUnicorn.appendChild(span);
+    Mockunicorn.appendChild(span);
 }
 
 export default vomitUnicorn;
