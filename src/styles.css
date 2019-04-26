@@ -70,8 +70,6 @@ h2 {
     height: 20px;
     width: 70px;
     border-radius: 7%;
-    margin-left: -35px;
-    margin-bottom: 10%;
 }
 
 .red {
@@ -103,9 +101,21 @@ h2 {
 }
 
 .puke {
-    transform: translateY(+93px);
-    translate: 3000ms ease-in-out;
+    animation-name: puke; 
+    animation-duration: 1s;
 }
+
+@keyframes puke {
+    from {
+        margin-left: -35px;
+        margin-bottom: 10%;
+        margin-right: -12px;
+    }
+  
+    to {
+      margin-bottom: 5%;
+    }
+  }
 
 footer {
     color: purple;
