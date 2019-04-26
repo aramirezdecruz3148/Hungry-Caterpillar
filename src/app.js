@@ -1,3 +1,4 @@
+import vomitUnicorn from './vomit-unicorn.js';
 //selecting elements I want to use, (posting the cast list)
 const colorButtons = document.querySelectorAll('.color');
 

@@ -1,13 +1,7 @@
+import vomitUnicorn from '../src/vomit-unicorn.js';
 const test = QUnit.test;
 
-function vomitUnicorn(mockUnicorn, colorName) {
-    const span = document.createElement('span');
-    span.classList.add('part');
-    span.classList.add(colorName);
-    mockUnicorn.appendChild(span);
-}
-
-test('', (assert) => {
+test('test to cause vomit balls to be created from my buttons', (assert) => {
     // arrange
     const colorName = 'red';
     const mockUnicorn = document.createElement('div');
