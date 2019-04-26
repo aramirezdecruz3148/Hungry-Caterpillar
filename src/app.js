@@ -7,6 +7,6 @@ for(let i = 0; i < colorButtons.length; i++) {
 
     //wiring up listening event
     colorButton.addEventListener('click', () => {
-        console.log(colorButton.value);
+        
     });
 }
