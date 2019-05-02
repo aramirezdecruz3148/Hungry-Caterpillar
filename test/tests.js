@@ -1,23 +1,19 @@
-import getHeadsOrTails from '../src/get-heads-or-tails.js';
+import vomitUnicorn from '../src/vomit-unicorn.js';
 const test = QUnit.test;
 
-test('gets heads for less than .5', (assert) => {
+test('test to cause vomit balls to be created && to add additional class to move puke', (assert) => {
     // arrange
-    const number = .49;
-    const expected = 'heads';
-
+    const colorName = 'red';
+    const mockUnicorn = document.createElement('div');
+    const puke = 'puke';
+    const expected = '<span class="part red puke"></span>';
     // act
-    const result = getHeadsOrTails(number);
-
+    vomitUnicorn(mockUnicorn, colorName, puke); 
     // assert
-    assert.equal(result, expected);
+    const parentInnerHTML = mockUnicorn.innerHTML;
+    assert.equal(parentInnerHTML, expected);
 });
 
-test('returns tails for equal or greater than .5', (assert) => {
-    const number = .5;
-    const expected = 'tails';
 
-    const result = getHeadsOrTails(number);
 
-    assert.equal(result, expected);
-});
+

@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+
+body {
+    width: 875px;
+    height: 250px;
+    font-family: 'Indie Flower', cursive;
+    background-color: rgb(245, 244, 244);
+}
+
+main {
+    text-align: center;
+}
+
+h1 {
+    color: purple;
+    text-align: center;
+}
+
+h2 {
+    color: pink;
+}
+
+.color {
+    width: 5em;
+    height: 5em;
+    margin-top: .5%;
+    margin-left: .5%;
+}
+
+.button-image {
+    width: 40px;
+    height: 20px;
+}
+
+#red {
+    background: red;
+}
+
+#orange {
+    background: orange;
+}
+
+#yellow {
+    background: yellow;
+}
+
+#green {
+    background: green;
+}
+
+#blue {
+    background: blue;
+}
+
+#purple {
+    background: purple;
+}
+
+#pink {
+    background: pink;
+}
+
+#puke-cleaner {
+    width: 5em;
+    height: 5em;
+    margin-top: .5%;
+    margin-left: 4%;
+    transform: translateY(-15px);
+    background-image: radial-gradient(circle, #5c0067 0%, #00d4ff 100%);
+    color: rgb(225, 225, 225);
+    font-weight: bolder;
+    border: solid purple;
+}
+
+.head {
+    width: 200px;
+    height: auto;
+    margin-top: 3%;
+}
+
+.part {
+    display: inline-block;
+    height: 20px;
+    width: 70px;
+    border-radius: 7%;
+}
+
+.red {
+    background: red;
+}
+
+.orange {
+    background: orange;
+}
+
+.yellow {
+    background: yellow;
+}
+
+.green {
+    background: green;
+}
+
+.blue {
+    background: blue;
+}
+
+.purple {
+    background: purple;
+}
+
+.pink {
+    background: pink;
+}
+
+.puke {
+    animation-name: puke; 
+    animation-duration: .5s;
+    transform: translateY(+63px) translateX(+20px);
+}
+
+@keyframes puke {
+    from {
+        transform: translateY(10px) translateX(-55px);
+        margin-bottom: 7%;
+    }
+  
+    to {
+      transform: translateY(+63px) translateX(+20px);
+    }
+  }
+
+footer {
+    color: purple;
+    background-color: pink;
+    text-align: center;
+}
+
+.wrapper {
+    display: flex;
+    align-items: center;
+}
+
+#unicorn {
+    margin-bottom: -10%;
+}
